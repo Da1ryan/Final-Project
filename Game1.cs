@@ -212,7 +212,7 @@ namespace Final_Project
         protected override void Draw(GameTime gameTime) // TODO: Add your drawing code here
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
+            
             _spriteBatch.Begin();
 
             if (screen == Screen.startMenu)
